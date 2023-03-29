@@ -1,0 +1,45 @@
+outputDir=/Volumes/Yorick/Surrogation/derivatives/Timing_Files
+
+for analysis in Analysis1-1 Analysis1-2 Analysis1-3 Analysis2-1 Analysis3-1; do
+	for cond in Measure Strategy NoSurrogation Surrogation Nonsense Abstract Concrete Nonword; do
+		cp ${analysis}/Participant_1_${cond}.txt  ${outputDir}/${analysis}/sub-4793_${cond}.txt
+		cp ${analysis}/Participant_2_${cond}.txt  ${outputDir}/${analysis}/sub-4794_${cond}.txt
+		cp ${analysis}/Participant_3_${cond}.txt  ${outputDir}/${analysis}/sub-4795_${cond}.txt
+		cp ${analysis}/Participant_4_${cond}.txt  ${outputDir}/${analysis}/sub-4796_${cond}.txt
+		cp ${analysis}/Participant_5_${cond}.txt  ${outputDir}/${analysis}/sub-4797_${cond}.txt
+		cp ${analysis}/Participant_6_${cond}.txt  ${outputDir}/${analysis}/sub-4798_${cond}.txt
+		cp ${analysis}/Participant_7_${cond}.txt  ${outputDir}/${analysis}/sub-4799_${cond}.txt
+		cp ${analysis}/Participant_8_${cond}.txt  ${outputDir}/${analysis}/sub-4864_${cond}.txt
+		cp ${analysis}/Participant_9_${cond}.txt  ${outputDir}/${analysis}/sub-4865_${cond}.txt
+		cp ${analysis}/Participant_10_${cond}.txt ${outputDir}/${analysis}/sub-4866_${cond}.txt
+		cp ${analysis}/Participant_11_${cond}.txt ${outputDir}/${analysis}/sub-4867_${cond}.txt
+		cp ${analysis}/Participant_12_${cond}.txt ${outputDir}/${analysis}/sub-4868_${cond}.txt
+		cp ${analysis}/Participant_13_${cond}.txt ${outputDir}/${analysis}/sub-4869_${cond}.txt
+		cp ${analysis}/Participant_14_${cond}.txt ${outputDir}/${analysis}/sub-4870_${cond}.txt
+		cp ${analysis}/Participant_15_${cond}.txt ${outputDir}/${analysis}/sub-4871_${cond}.txt
+		cp ${analysis}/Participant_16_${cond}.txt ${outputDir}/${analysis}/sub-4872_${cond}.txt
+		cp ${analysis}/Participant_17_${cond}.txt ${outputDir}/${analysis}/sub-4873_${cond}.txt
+		cp ${analysis}/Participant_18_${cond}.txt ${outputDir}/${analysis}/sub-4874_${cond}.txt
+		cp ${analysis}/Participant_19_${cond}.txt ${outputDir}/${analysis}/sub-4875_${cond}.txt
+		cp ${analysis}/Participant_20_${cond}.txt ${outputDir}/${analysis}/sub-4876_${cond}.txt
+		cp ${analysis}/Participant_21_${cond}.txt ${outputDir}/${analysis}/sub-4877_${cond}.txt
+		cp ${analysis}/Participant_22_${cond}.txt ${outputDir}/${analysis}/sub-4878_${cond}.txt
+		cp ${analysis}/Participant_23_${cond}.txt ${outputDir}/${analysis}/sub-4879_${cond}.txt
+		cp ${analysis}/Participant_24_${cond}.txt ${outputDir}/${analysis}/sub-4880_${cond}.txt
+		cp ${analysis}/Participant_25_${cond}.txt ${outputDir}/${analysis}/sub-4881_${cond}.txt
+		cp ${analysis}/Participant_26_${cond}.txt ${outputDir}/${analysis}/sub-4882_${cond}.txt
+		cp ${analysis}/Participant_27_${cond}.txt ${outputDir}/${analysis}/sub-4883_${cond}.txt
+		cp ${analysis}/Participant_28_${cond}.txt ${outputDir}/${analysis}/sub-4884_${cond}.txt
+		cp ${analysis}/Participant_29_${cond}.txt ${outputDir}/${analysis}/sub-4885_${cond}.txt
+		cp ${analysis}/Participant_30_${cond}.txt ${outputDir}/${analysis}/sub-4886_${cond}.txt
+		cp ${analysis}/Participant_31_${cond}.txt ${outputDir}/${analysis}/sub-4887_${cond}.txt
+		cp ${analysis}/Participant_32_${cond}.txt ${outputDir}/${analysis}/sub-4888_${cond}.txt
+		cp ${analysis}/Participant_33_${cond}.txt ${outputDir}/${analysis}/sub-4889_${cond}.txt
+		cp ${analysis}/Participant_34_${cond}.txt ${outputDir}/${analysis}/sub-4890_${cond}.txt
+		cp ${analysis}/Participant_35_${cond}.txt ${outputDir}/${analysis}/sub-4891_${cond}.txt
+		cp ${analysis}/Participant_36_${cond}.txt ${outputDir}/${analysis}/sub-4892_${cond}.txt
+		cp ${analysis}/Participant_37_${cond}.txt ${outputDir}/${analysis}/sub-4893_${cond}.txt
+		cp ${analysis}/Participant_38_${cond}.txt ${outputDir}/${analysis}/sub-4894_${cond}.txt
+	done
+done
+	
