@@ -1,2 +1,4 @@
 # surrogation
 An fMRI Investigation of the  Neurocognitive Processing of Strategies and Measures
+
+A central feature of most organizations is the use of measures to represent key elements of performance across multiple strategic objectives. In this study, we examine neural activation when processing measures and when processing strategic objectives. We find that differences in brain activity when processing measures and strategic objectives are similar to the differences in brain activity when processing concrete and abstract words. We further find evidence relating to surrogation, the tendency for individuals to treat measures as though they are the strategic objectives they represent as opposed to imperfect representations of those strategic objectives. Specifically, we find that greater brain activity and longer response times are associated with less surrogation.
